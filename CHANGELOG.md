@@ -7,11 +7,17 @@ All notable user-facing changes to Squatter. Written for the people who use it â
 ### Added
 
 ### Changed
-- With the menu bar count on, Squatter now shows just its icon when there are no ports to list, instead of a 0.
 
 ### Fixed
 
 ### Removed
+
+## [0.4.2] - 2026-10-05
+
+A small one: the menu bar no longer shows a 0 when there's nothing to list.
+
+### Changed
+- With the menu bar count on, Squatter now shows just its icon when there are no ports to list, instead of a 0.
 
 ## [0.4.1] - 2026-08-30
 
