@@ -10,8 +10,8 @@ each plan so an executor never has to go looking):
 
 - **Do not commit.** Commits are gated behind owner approval (CHANGELOG gate → release gate →
   build/verify → commit). Leave work in the working tree and report.
-- **Do not touch Linear.** Golden rule #8 requires a Linear issue for every `TRACKER.md`
-  change, but that is the owner's step. Flag it in your report instead.
+- **Do not touch Notion.** Golden rule #8 requires a Notion task for every `TRACKER.md`
+  change, but that is the orchestrator's step. Flag it in your report instead.
 - **`TRACKER.md` on every plan; `CHANGELOG.md` only when a user would notice.** Refactors, CI
   and tests are TRACKER-only.
 
