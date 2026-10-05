@@ -1,8 +1,14 @@
 # TRACKER — Squatter
 
+## 2026-09-06 — Notion tracking instructions
+
+Updated agent rules and plan/tracker guidance to use the Elyas Notion teamspace. Preserved legacy IDs for lookup and existing review requirements. Documentation-only; no application behavior changed.
+
+> **Notion tracking — 2026-09-06:** Current task tracking is in Notion: [Squatter](https://app.notion.com/p/3d3cacb0997081acbbbbfc2bd0f0ddf8), [Tasks](https://app.notion.com/p/3d2cacb09970808d99b7f3c0c0a36f35). Any Linear URLs, IDs, statuses or refusals below are historical references. Resolve migrated IDs via `Linear ID` and verify `Project`; use the Notion task page for all new updates. This supersedes instructions below to create, query, update or close Linear issues. Follow the current repository tracking rule, including its owner-review requirements.
+
 Single source of truth for build progress. Update on every meaningful change.
 Requirements and priorities: [PROJECT_SPEC.md](PROJECT_SPEC.md).
-Mirrored in Linear: [Squatter project](https://linear.app/ielyas/project/squatter-8016284756f8) — phases = milestones, tasks = `E2-…` issues (see [rules/issue-tracker-status.md](rules/issue-tracker-status.md)).
+Mirrored in Notion: [Squatter](https://app.notion.com/p/3d3cacb0997081acbbbbfc2bd0f0ddf8) — phases = milestones, tasks = Notion Tasks (see [rules/issue-tracker-status.md](rules/issue-tracker-status.md)).
 
 ## Phase board
 

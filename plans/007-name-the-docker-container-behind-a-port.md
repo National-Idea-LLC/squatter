@@ -1,5 +1,7 @@
 # Plan 007: Show which Docker container owns a published port
 
+> **Notion tracking — 2026-09-06:** Current task tracking is in Notion: [Squatter](https://app.notion.com/p/3d3cacb0997081acbbbbfc2bd0f0ddf8), [Tasks](https://app.notion.com/p/3d2cacb09970808d99b7f3c0c0a36f35). Any Linear URLs, IDs, statuses or refusals below are historical references. Resolve migrated IDs via `Linear ID` and verify `Project`; use the Notion task page for all new updates. This supersedes instructions below to create, query, update or close Linear issues. Follow the current repository tracking rule, including its owner-review requirements.
+
 > **Executor instructions**: Follow this plan step by step. Run every verification
 > command and confirm the expected result before moving to the next step. If anything
 > in the "STOP conditions" section occurs, stop and report — do not improvise. When
@@ -204,8 +206,7 @@ Quoted, because you have not read those files:
   so both.
 - **Do not commit and do not push.** Commits are gated behind owner approval. Leave the
   work in the working tree and report.
-- **Do not touch Linear.** Golden rule #8 needs a Linear issue for the TRACKER change;
-  that is the owner's step. Flag it in your report.
+- **Keep Notion current** under `rules/issue-tracker-status.md`; leave tasks `In progress` and report ready for review until owner sign-off.
 
 ## Commands you will need
 
