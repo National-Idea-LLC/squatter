@@ -202,11 +202,12 @@ final class PortListModel {
 
     var isPolling: Bool { pollTask != nil }
 
-    /// Number to show in the menu bar, or `nil` when the badge is off or nothing has loaded yet.
-    /// Counts what the list would show with the ignore list applied.
+    /// Number to show in the menu bar, or `nil` when the badge is off, nothing has loaded yet,
+    /// or the list is empty. Counts what the list would show with the ignore list applied.
     var menuBarCount: Int? {
         guard showCountInMenuBar, hasLoaded else { return nil }
-        return listeners.count - hiddenCount
+        let count = listeners.count - hiddenCount
+        return count > 0 ? count : nil
     }
 
     /// The selected row, if it is currently visible.

@@ -7,6 +7,7 @@ All notable user-facing changes to Squatter. Written for the people who use it â
 ### Added
 
 ### Changed
+- With the menu bar count on, Squatter now shows just its icon when there are no ports to list, instead of a 0.
 
 ### Fixed
 

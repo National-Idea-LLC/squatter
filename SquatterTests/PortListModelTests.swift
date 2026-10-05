@@ -817,6 +817,9 @@ struct PortListModelTests {
         model.ignorePort(of: sampleListener)
         #expect(model.menuBarCount == 1, "ignored rows don't count")
 
+        model.ignorePort(of: model.listeners.first { $0.pid == 7 }!)
+        #expect(model.menuBarCount == nil, "an empty list shows no number")
+
         model.showCountInMenuBar = false
         #expect(!model.isPolling)
         #expect(model.menuBarCount == nil)
